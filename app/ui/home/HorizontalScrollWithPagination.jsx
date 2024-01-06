@@ -99,21 +99,17 @@ const HorizontalScrollWithPagination = () => {
           onClick={handlePrevPage}
           disabled={currentPage === 1}
           className={`${
-            currentPage === 1 ? "px-10" : "px-5"
-          } py-1 bg-yellow-500 text-white rounded disabled:opacity-50 ml-2`}
-        >
-          Prev
-        </button>
-        <span>{`Page ${currentPage} of ${totalPages}`}</span>
+            currentPage === 1 ? "px-5" : "px-5"
+          } py-1 bg-yellow-500 text-white opacity-50 rounded disabled:opacity-100 ml-2`}
+        ></button>
+        {/* <span>{`Page ${currentPage} of ${totalPages}`}</span> */}
         <button
           onClick={handleNextPage}
           disabled={currentPage === totalPages}
           className={`${
-            currentPage === totalPages ? "px-10" : "px-5"
-          } py-1 bg-yellow-500 text-white rounded disabled:opacity-50 ml-2`}
-        >
-          Next
-        </button>
+            currentPage === totalPages ? "px-5" : "px-5"
+          } py-1 bg-yellow-500 text-white rounded opacity-50 disabled:opacity-100 ml-2`}
+        ></button>
       </div>
     </div>
   );
