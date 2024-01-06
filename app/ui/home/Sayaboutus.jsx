@@ -87,7 +87,7 @@ const Sayaboutus = () => {
           </h1>
           <span className="text-white font-flat max-w-[400px]">
             We are always interested in hearing your thoughts and hearing about
-            your experiences. Here are some of our most devoted clients'
+            your experiences. Here are some of our most devoted clients
             thoughts.
           </span>
         </div>

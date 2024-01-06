@@ -132,7 +132,7 @@ export const Ourteam = () => {
               className="items-center gap-4  rounded-md flex flex-col h-[380px]"
             >
               <div className=" w-full h-[80%]">
-                <img
+                <Image
                   src={event.imageUrl}
                   alt={event.name}
                   className="w-full h-full object-cover"
