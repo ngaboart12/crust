@@ -12,10 +12,9 @@ const Contactus = () => {
             <div className="flex flex-col  w-full  h-full  gap-4">
               <div className="flex gap-2">
                 <span className="text-[14px] text-black text-center md:text-start">
-                  Are you ready to elevate your global business or profession to
-                  new heights? Do you have international inquiries or simply
-                  want to say hello? Please don't hesitate to reach out to us.
-                  We're here to serve the diverse needs of our global clientele.
+                  Are you ready to take your company or profession to the next
+                  level? Do you have any queries or just want to say hello?
+                  Please contact us at
                 </span>
               </div>
               <div className="flex gap-2 justify-center ">
@@ -35,7 +34,7 @@ const Contactus = () => {
                 </svg>
                 <span className="text-[14px] text-black">
                   If you have an urgent business concern, please contact us at
-                  0798735385/0722258777
+                  +25078**456
                 </span>
               </div>
               <div className="flex gap-2">
@@ -52,12 +51,12 @@ const Contactus = () => {
                   />
                 </svg>
                 <span className="text-[14px]  text-black">
-                  If you have an urgent business concern, please contact us at
-                  info@infinitytech.rw
+                  Be the first to hear about new releases, announcements, and
+                  updates.
                 </span>
               </div>
               <div className="flex flex-col gap-2">
-                <h1 className="text-[18px] font-outfit text-white">Follows</h1>
+                <h1 className="text-[18px]  text-black">Follows</h1>
                 <div className="flex gap-6">
                   <a href="#">
                     <svg
