@@ -46,7 +46,7 @@ const totalItems = eventData.length;
 
 export const Ourteam = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(4);
   const eventData = [
     {
       id: 1,
@@ -126,7 +126,7 @@ export const Ourteam = () => {
         </h1>
       </div>
       <div className="overflow-x-auto whitespace-nowrap">
-        <div className={`grid grid-cols-${itemsPerPage} w-full gap-10 pt-10`}>
+        <div className={`grid grid-cols-2 md:grid-cols-4 w-full gap-10 pt-10`}>
           {visibleItems.map((event) => (
             <div
               key={event.id}

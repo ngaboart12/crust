@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HorizontalScrollWithPagination = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(4);
   const eventData = [
     {
       id: 1,
@@ -54,8 +54,6 @@ const HorizontalScrollWithPagination = () => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
         setItemsPerPage(1); // Small devices
-      } else if (window.innerWidth < 1024) {
-        setItemsPerPage(2); // Medium devices
       } else {
         setItemsPerPage(4); // Larger devices
       }
@@ -77,7 +75,7 @@ const HorizontalScrollWithPagination = () => {
 
   return (
     <div className="overflow-x-auto whitespace-nowrap">
-      <div className={`grid grid-cols-${itemsPerPage} w-full gap-10 pt-10`}>
+      <div className={`grid grid-cols-2 md:grid-cols-4 w-full gap-10 pt-10`}>
         {visibleItems.map((event) => (
           <div
             key={event.id}
