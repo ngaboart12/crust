@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HorizontalScrollWithPagination = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(4);
+  const [itemsPerPage, setItemsPerPage] = useState(1);
   const eventData = [
     {
       id: 1,

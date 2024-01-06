@@ -46,7 +46,7 @@ const totalItems = eventData.length;
 
 export const Ourteam = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(4);
+  const [itemsPerPage, setItemsPerPage] = useState(1);
   const eventData = [
     {
       id: 1,
@@ -136,6 +136,8 @@ export const Ourteam = () => {
                 <Image
                   src={event.imageUrl}
                   alt={event.name}
+                  width={400}
+                  height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
