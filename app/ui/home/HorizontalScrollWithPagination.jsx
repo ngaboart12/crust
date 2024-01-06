@@ -90,7 +90,7 @@ const HorizontalScrollWithPagination = () => {
                 height={300}
               />
             </div>
-            <h1 className="text-[20px] font-flat">{event.name}</h1>
+            <h1 className="text-[20px] font-flat text-black">{event.name}</h1>
           </div>
         ))}
       </div>

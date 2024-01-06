@@ -5,13 +5,15 @@ export const Ourworks = () => {
     <div className="w-full max-w-7xl py-20 px-[20px] md:px-[85px] flex flex-col gap-20">
       <div className="flex flex-col md:flex-row gap-10 md:gap-20 items-center">
         <div className="flex flex-col gap-1">
-          <span className="text-[24px] font-alex">How it workss</span>
+          <span className="text-[24px] font-alex text-black">
+            How it workss
+          </span>
           <h1 className="text-[#F9A21B] text-[24px] font-flat max-w-[200px] leading-6">
             OUR WORK PROCESSES
           </h1>
         </div>
         <div>
-          <span className="text-[18px] font-flat text-center ">
+          <span className="text-[18px] font-flat text-center text-black ">
             Having an event of whatever sort become colorful beyond reasonable
             understanding at the end of the day, is why CRUST EVENTS exist. Our
             processes are crystal clear and concise and whatever we do prior to
@@ -26,7 +28,7 @@ export const Ourworks = () => {
             <h1 className=" text-[#F9A21B] font-flat text-[18px]">
               Setting up
             </h1>
-            <span className="font-flat max-w-[300px]">
+            <span className="font-flat max-w-[300px] text-black">
               with clear goals, objectives and expectations for your events.
             </span>
           </div>
@@ -35,7 +37,7 @@ export const Ourworks = () => {
           <h1 className="text-[30px] text-[#F9A21B]">2</h1>
           <div className="flex flex-col">
             <h1 className=" text-[#F9A21B] font-flat text-[18px]">Creating</h1>
-            <span className="font-flat max-w-[300px]">
+            <span className="font-flat max-w-[300px] text-black">
               a vivid picture like a budget and checklists of activities for
               your event.
             </span>
@@ -47,7 +49,7 @@ export const Ourworks = () => {
             <h1 className=" text-[#F9A21B] font-flat text-[18px]">
               Designing and Planning
             </h1>
-            <span className="font-flat max-w-[300px]">
+            <span className="font-flat max-w-[300px] text-black">
               all prerequisites for an unforgettable event ever.
             </span>
           </div>
@@ -60,7 +62,7 @@ export const Ourworks = () => {
             <h1 className=" text-[#F9A21B] font-flat text-[18px]">
               Designing and Planning
             </h1>
-            <span className="font-flat max-w-[300px]">
+            <span className="font-flat max-w-[300px] text-black">
               all prerequisites for an unforgettable event ever.
             </span>
           </div>
@@ -71,7 +73,7 @@ export const Ourworks = () => {
             <h1 className=" text-[#F9A21B] font-flat text-[18px]">
               Designing and Planning
             </h1>
-            <span className="font-flat max-w-[300px]">
+            <span className="font-flat max-w-[300px] text-black">
               all prerequisites for an unforgettable event ever.
             </span>
           </div>

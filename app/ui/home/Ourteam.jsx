@@ -120,7 +120,7 @@ export const Ourteam = () => {
   return (
     <div className="w-full pl-[20px] md:pl-[85px] py-20">
       <div className="flex flex-col  items-center">
-        <span className=" font-alex text-[20px]">team</span>
+        <span className=" font-alex text-[20px] text-black">team</span>
         <h1 className="text-[#F9A21B] font-flat text-[24px]">
           OUR Creative Team
         </h1>
@@ -142,8 +142,10 @@ export const Ourteam = () => {
                 />
               </div>
               <div className="w-full flex flex-col">
-                <h1 className="text-[20px] font-flat">{event.name}</h1>
-                <span className=" font-flat text-[#767676]">
+                <h1 className="text-[20px] font-flat text-black">
+                  {event.name}
+                </h1>
+                <span className=" font-flat text-[#767676] ">
                   {event?.title}
                 </span>
               </div>

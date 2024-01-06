@@ -24,12 +24,12 @@ export const Whatwedo = () => {
           </h1>
         </div>
         <div className="flex flex-col gap-4 text-center md:text-start w-full">
-          <span className="text-[16px] font-flat text-center md:text-start">
+          <span className="text-[16px] font-flat text-center md:text-start text-black">
             At Crust Events, we combined our knowledge, experience, and deep
             domain expertise to become the connoisseur of events thus
             establishing your crème de la crème event management company.
           </span>
-          <span className="text-[16px] font-flat">
+          <span className="text-[16px] font-flat text-black">
             We phenomenally serve clients of any scale around Rwanda and the
             globe at large. From growing startups, SMEs, NGOs, individuals,
             celebrities, high level people to well-known corporate companies.

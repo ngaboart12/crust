@@ -32,7 +32,7 @@ export const Hero = () => {
               <path d="M0 5.5H112L96 0.5H0V5.5Z" fill="#D9D9D9" />
             </svg>
           </div>
-          <h1 className="font-noval max-w-[450px] font-bold">
+          <h1 className="font-noval max-w-[450px] font-bold text-black">
             A top notch event management company offering state-of-the-art
             services
           </h1>
